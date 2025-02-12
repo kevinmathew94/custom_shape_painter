@@ -1,7 +1,7 @@
 library custom_shape_painter;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/widgets/custom_shape_painter.dart';
+export 'src/models/paint_mode.dart';
+export 'src/models/stroke_path.dart';
+export 'src/models/path_command.dart';
+export 'src/models/serialized_stroke_path.dart';
